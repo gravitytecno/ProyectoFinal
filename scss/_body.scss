@@ -1,0 +1,140 @@
+$fondo:rgb(215, 219, 223);
+$aside:#e7e9f0;
+$bg-oscuro:#222020;
+
+body{
+    
+    font-family: $fontMain;
+    
+}
+
+                                   
+// aside izquierdo                              
+.asideCategorias{
+    padding-bottom: 30vh;           
+}
+.botones li a{
+    
+    font-size: 1.2em;
+    color:$bg-oscuro;
+    pointer-events: painted;
+    text-decoration: none;
+}
+
+//destacados 
+.destacados{
+background-color:$bg-oscuro;
+padding: 5vh;
+transition: background-color 0.5s linear;
+} 
+
+.destacados:hover{
+    background-color:blue;
+}
+
+.destacados__titulo--blanco {
+                    color:$aside;
+                    font-size: 3em;
+                    
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:$bg-oscuro;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.cards{
+    padding-left: 5vh; 
+}
+
+.card__img--tamaño{
+    width: 100%;
+}
+
+// corousel
+
+.imagenCentro{
+    
+    margin-right: -3vh;
+    margin-left: 2vh;
+}
+.corousel__titulo--big{
+    font-size:3em ;
+    background: linear-gradient(rgb(83, 83, 97),rgb(13, 84, 250));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.corousel{
+    background-color:$aside;
+    margin-left: 2vh;
+    margin-right: -2vh;
+}
+
+// aside derecho publicidad
+
+
+.asideDerecho_imagenes--tamaño {
+    width: 135px;
+}
+
+//pagina ayuda
+
+.modal{
+    text-align: center;
+    padding: 10vh;
+}
+
+.preguntas{
+    padding-bottom: 2vh;
+}
+.reclamos{
+    margin-left: 5vh;
+}
+.ayuda{
+    text-align: center;
+    padding-bottom: 3vh;
+}
+#cargando {
+    display: none;
+}
+
+// pagina Productos
+
+.descricionProductos_imagenes--medio{
+    width: 100%;
+    margin: 3vh;
+}
+
+.descricionProductos_imagenes--small{
+    width: 100px;
+    margin: 1vh;
+}
+
+.descricionProductos_imagenes--small2{
+    width: 50px;
+    margin: 1vh;
+}
+.descricionProductos_texto{
+  background-color: rgb(204, 217, 235);
+    margin: 0.2vh;
+}
+
+//pagina carrito
+
+.formularioEnvio{
+    background-color:$aside;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+

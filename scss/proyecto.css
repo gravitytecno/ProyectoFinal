@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.textMedium {
+  font-size: 1.2em;
+}
+
+.textBig {
+  font-size: 3em;
+}
+
+.textSmall {
+  font-size: 0.8em;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul li .navbar_link--beige {
+  color: beige;
+}
+
+.carrito {
+  width: 30px;
+}
+
+.buscar {
+  margin-left: 10vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.asideCategorias {
+  padding-bottom: 30vh;
+}
+
+.botones li a {
+  font-size: 1.2em;
+  color: #222020;
+  pointer-events: painted;
+  text-decoration: none;
+}
+
+.destacados {
+  background-color: #222020;
+  padding: 5vh;
+  -webkit-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+}
+
+.destacados:hover {
+  background-color: blue;
+}
+
+.destacados__titulo--blanco {
+  color: #e7e9f0;
+  font-size: 3em;
+}
+
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #222020;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.cards {
+  padding-left: 5vh;
+}
+
+.card__img--tamaño {
+  width: 100%;
+}
+
+.imagenCentro {
+  margin-right: -3vh;
+  margin-left: 2vh;
+}
+
+.corousel__titulo--big {
+  font-size: 3em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#535361), to(#0d54fa));
+  background: linear-gradient(#535361, #0d54fa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.corousel {
+  background-color: #e7e9f0;
+  margin-left: 2vh;
+  margin-right: -2vh;
+}
+
+.asideDerecho_imagenes--tamaño {
+  width: 135px;
+}
+
+.modal {
+  text-align: center;
+  padding: 10vh;
+}
+
+.preguntas {
+  padding-bottom: 2vh;
+}
+
+.reclamos {
+  margin-left: 5vh;
+}
+
+.ayuda {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+#cargando {
+  display: none;
+}
+
+.descricionProductos_imagenes--medio {
+  width: 100%;
+  margin: 3vh;
+}
+
+.descricionProductos_imagenes--small {
+  width: 100px;
+  margin: 1vh;
+}
+
+.descricionProductos_imagenes--small2 {
+  width: 50px;
+  margin: 1vh;
+}
+
+.descricionProductos_texto {
+  background-color: #ccd9eb;
+  margin: 0.2vh;
+}
+
+.formularioEnvio {
+  background-color: #e7e9f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10vh;
+}
+
+footer {
+  background-color: #222020;
+  color: #e7e9f0;
+}
+
+footer a {
+  color: #e7e9f0;
+}
+
+.footer_col--margin {
+  margin: 3vh;
+}
+
+.quienesSomos {
+  text-align: center;
+}
+
+.datosContactos {
+  text-align: center;
+}
+
+.footer_col1--margin {
+  text-align: center;
+}
+
+.icono1 {
+  width: 100px;
+}
+
+.icono2 {
+  width: 100px;
+}
+
+.icono3 {
+  width: 100px;
+}
+/*# sourceMappingURL=proyecto.css.map */
